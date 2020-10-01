@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(expressSantizer())
 app.use(methodOverride('_method'))
 
-//Mongoose/Model CONFIG
+//Mongoose/Model CONFIG hello
 var blogSchema = new mongoose.Schema({
   title: String,
   image: String,
